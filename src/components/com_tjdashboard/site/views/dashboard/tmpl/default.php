@@ -36,6 +36,7 @@ jQuery(document).ready(function() {
 			<div class="col-xs-12 tjdashboard">
 				<h3>
 					<div data-dashboard-id="<?php echo $this->item->dashboard_id;?>" class="tjdashboard-title"><?php echo htmlspecialchars($this->item->title);?></div>
+					
 				</h3>
 			</div>
 		</div>
